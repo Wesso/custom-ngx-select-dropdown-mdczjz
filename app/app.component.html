@@ -1,0 +1,12 @@
+<!-- <form [formGroup]="myForm" (ngSubmit)="submit()">
+  <app-select-dropdown formControlName="member" [list]="list"></app-select-dropdown>
+  <button>Submit</button>
+</form>
+<div>
+  FormValue {{myForm.value | json}}
+</div>
+<br><br>
+
+<app-select-dropdown [(ngModel)]="value" [list]="list" placeholder="Select member"></app-select-dropdown>
+<p>{{value}}</p> -->
+<ngx-select-dropdown [config]="config" [options]="list"></ngx-select-dropdown>
